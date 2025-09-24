@@ -178,22 +178,6 @@ curl http://localhost:8080/api/hostname
 
 ## 🔧 Gestión y Monitoreo
 
-### Script de Gestión Interactivo
-
-```powershell
-# Usar el script de gestión completo
-manage-stack.bat
-```
-
-**El script incluye opciones para:**
-- ✅ Iniciar/detener stack
-- ✅ Ver estado y logs
-- ✅ Escalar servicios
-- ✅ Probar load balancing
-- ✅ Limpieza completa
-
-### Comandos Manuales Avanzados
-
 #### Escalado del servicio
 
 ```powershell
@@ -250,10 +234,6 @@ docker system prune -f
 ├── 🐳 docker-compose-loadbalancer.yml    # Compose con load balancer
 ├── ⚙️ nginx.conf                         # Configuración Nginx
 ├── 🚫 .dockerignore                      # Archivos ignorados por Docker
-├── 🔧 deploy.bat                         # Script despliegue simple
-├── 🔧 cleanup.bat                        # Script limpieza simple
-├── 🔧 manage-stack.bat                   # Script gestión completa
-├── 🔧 test-loadbalancer.bat              # Script prueba load balancer
 ├── 📁 .venv/                             # Entorno virtual Python
 └── 📖 README.md                          # Esta documentación
 ```
