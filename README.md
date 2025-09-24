@@ -10,6 +10,8 @@ de la instancia donde se está ejecutando, con soporte para load balancing.
 
 ```powershell
 # 1. Clona el repositorio.
+git clone https://github.com/pedro-1opez/load-balancer.git
+
 # 2. Ejecutar stack completo con load balancer
 docker-compose -f docker-compose-loadbalancer.yml up -d
 
