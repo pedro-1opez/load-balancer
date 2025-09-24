@@ -1,8 +1,3 @@
-==================================================================================================
-EL SIGUIENTE README.MD CONTIENE LAS INSTRUCCIONES PARA LA EJECUCIÓN DE LA PRÁCTICA "LOAD BALANCER"
-PARA LA ASIGNATURA DE INGENIERÍA DE SOFTWARE III, IMPARTIDA EN LA UNIVERSIDAD DE SONORA.
-==================================================================================================
-
 # 🖥️ Flask Hostname App
 
 Consiste en una aplicación que hace uso del framework Flask que muestra en pantalla el hostname
