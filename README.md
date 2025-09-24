@@ -154,10 +154,7 @@ docker-compose -f docker-compose-loadbalancer.yml ps
 #### Paso 4: Probar load balancing
 
 ```powershell
-# Opción A: Usar script automático
-test-loadbalancer.bat
-
-# Opción B: Probar manualmente
+Probar manualmente
 curl http://localhost:8080/api/hostname
 curl http://localhost:8080/api/hostname
 curl http://localhost:8080/api/hostname
@@ -172,6 +169,9 @@ curl http://localhost:8080/api/hostname
 ✅ Deberías ver diferentes hostnames en cada petición,
    demostrando que el load balancer distribuye las peticiones
    entre las 3 réplicas del servicio.
+
+(RECARGA LA PÁGINA PARA VER EL LOAD BALANCER EN FUNCIONAMIENTO)
+
 ```
 
 ---
